@@ -1,0 +1,45 @@
+alias_generator
+root@kali:~# alias_generator -h
+usage: alias_generator [-n <NAME>] [-s1 <SURNAME_1>] [-s2 <SURNAME_2>]
+                       [-c <CITY>] [-C <COUNTRY>] [-y <YEAR>]
+                       [-o <path_to_output_file>] [--numbers] [--common-words]
+                       [--leet] [--locales]
+                       [--extra-words EXTRA_WORDS [EXTRA_WORDS ...]] [-h]
+                       [--version]
+
+alias_generator is a tool that tries to create possible aliases based on the
+inputs known from a person.
+
+options:
+  -n <NAME>, --name <NAME>
+                        Name of the person.
+  -s1 <SURNAME_1>, --surname1 <SURNAME_1>
+                        First surname.
+  -s2 <SURNAME_2>, --surname2 <SURNAME_2>
+                        Second surname.
+  -c <CITY>, --city <CITY>
+                        A city linked to the profile.
+  -C <COUNTRY>, --country <COUNTRY>
+                        A country.
+  -y <YEAR>, --year <YEAR>
+                        Birth year.
+  -o <path_to_output_file>, --output-file <path_to_output_file>
+                        Path to the output file.
+
+Profile squatting arguments:
+  Showing additional configuration options for this program based on the
+  original -s option in usufy.py.
+
+  --numbers             Adds numbers at the end of the nicknames.
+  --common-words        Adds some famous words at the end of the nicknames.
+  --leet                Adds the leet mode to change 'a' by '4', 'e' by '3',
+                        etc.
+  --locales             Adds ending linked to countries.
+  --extra-words EXTRA_WORDS [EXTRA_WORDS ...]
+                        Adds new words to the nicknames provided by the user.
+
+About arguments:
+  Showing additional information about this program.
+
+  -h, --help            shows this help and exists.
+  --version             shows the version of the program and exists.

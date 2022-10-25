@@ -1,9 +1,8 @@
 OSRFramework
 ============
 
-OSRFramework: Open Sources Research Framework
+OSRFramework: Open Sources Research Framework Yudi Official
 
-Copyright (C) 2014-2021  F. Brezo and Y. Rubio, i3visio
 
 [![Version in PyPI](https://img.shields.io/pypi/v/osrframework.svg)]()
 [![License](https://img.shields.io/badge/license-GNU%20Affero%20General%20Public%20License%20Version%203%20or%20Later-blue.svg)]()
@@ -98,5 +97,4 @@ If you want to extend the functionalities of OSRFramework and you do not know wh
 
 6 - AUTHORS
 -----------
-
 More details about the authors in the [AUTHORS.md](AUTHORS.md) file.
